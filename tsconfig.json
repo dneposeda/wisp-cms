@@ -14,6 +14,11 @@
     "typeRoots": [
       "node_modules/@types"
     ],
+    "paths": {
+        "@app/*":["./src/app/*"],
+        "@core/*":["./scr/app/core-modules/*"],
+        "@commons/*": ["./scr/app/common-modules/*"]
+    },
     "lib": [
       "es2018",
       "dom"
