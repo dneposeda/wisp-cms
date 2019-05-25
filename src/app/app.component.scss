@@ -11,16 +11,18 @@
 }
 .header{
     flex-basis: 10rem;
+    min-height: 10rem;
     width: 100%;
     background-color: aqua;
 }
 .main{
-    flex-grow: 10;
+    flex-grow: 1;
     width: 100%;
     background-color: bisque;
 }
 footer{
     flex-basis: 10rem;
+    min-height: 10rem;
     width: 100%;
     background-color: #ccc;
 }

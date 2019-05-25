@@ -4,5 +4,5 @@ export interface NewsCategory {
     title: string;
     text: string;
     image: string;
-    newsList: Array <NewsItem>;
+    // newsList: Array <NewsItem>;
 }
