@@ -11,6 +11,9 @@ import { CommentListComponent } from './components/comment-list/comment-list.com
 import { RelatedGoodsListComponent } from './components/related-goods-list/related-goods-list.component';
 import { RelatedGoodsItemComponent } from './components/related-goods-item/related-goods-item.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
+import { TableParametersComponent } from './components/table-parameters/table-parameters.component';
+import { DeliveredItemComponent } from './components/delivered-item/delivered-item.component';
+import { WishedItemComponent } from './components/wished-item/wished-item.component';
 
 @NgModule({
     declarations: [
@@ -22,6 +25,9 @@ import { GalleryComponent } from './components/gallery/gallery.component';
         RelatedGoodsListComponent,
         RelatedGoodsItemComponent,
         GalleryComponent,
+        TableParametersComponent,
+        DeliveredItemComponent,
+        WishedItemComponent,
     ],
     imports: [
         BrowserModule,
