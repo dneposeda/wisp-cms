@@ -1,0 +1,106 @@
+{
+    "categoryName": "category1",
+    "content":
+    [
+        {
+            "id": 1,
+            "title": "News 1",
+            "text": "Lorem text novosti 1",
+            "author": {
+                "id": 1,
+                "name": "John1",
+                "surname": "Smith1",
+                "patronym": "Petrovich1"
+            },
+            "catergory": "category1",
+            "creationDate": "2014-01-01T23:28:56.782Z",
+            "publishingDate": "2014-01-01T23:28:56.782Z",
+            "largeImageUrl": "https://via.placeholder.com/600x200",
+            "mediumImageUrl": "https://via.placeholder.com/150",
+            "smalImageUrl": "https://via.placeholder.com/50",
+            "sourceLink":  "http:/someUrl",
+            "shortDescription": "Lorem short 1",
+            "link": "http:/someUrl"
+        },
+        {
+            "id": 2,
+            "title": "News 2",
+            "text": "Lorem text novosti 2",
+            "author": {
+                "id": 2,
+                "name": "John2",
+                "surname": "Smith2",
+                "patronym": "Petrovich2"
+            },
+            "catergory": "сategory1",
+            "creationDate": "2014-01-01T23:28:56.782Z",
+            "publishingDate": "2014-01-01T23:28:56.782Z",
+            "largeImageUrl": "https://via.placeholder.com/600x200",
+            "mediumImageUrl": "https://via.placeholder.com/150",
+            "smalImageUrl": "https://via.placeholder.com/50",
+            "sourceLink":  "http:/someUrl",
+            "shortDescription": "Lorem short 2",
+            "link": "http:/someUrl"
+        },
+        {
+            "id": 3,
+            "title": "News 3",
+            "text": "Lorem text novosti 3",
+            "author": {
+                "id": 3,
+                "name": "John3",
+                "surname": "Smith3",
+                "patronym": "Petrovich3"
+            },
+            "catergory": "сategory1",
+            "creationDate": "2014-01-01T23:28:56.782Z",
+            "publishingDate": "2014-01-01T23:28:56.782Z",
+            "largeImageUrl": "https://via.placeholder.com/600x200",
+            "mediumImageUrl": "https://via.placeholder.com/150",
+            "smalImageUrl": "https://via.placeholder.com/50",
+            "sourceLink":  "http:/someUrl",
+            "shortDescription": "Lorem short 3",
+            "link": "http:/someUrl"
+        },
+        {
+            "id": 4,
+            "title": "News 4",
+            "text": "Lorem text novosti ",
+            "author": {
+                "id": 4,
+                "name": "John4",
+                "surname": "Smith4",
+                "patronym": "Petrovich4"
+            },
+            "catergory": "сategory1",
+            "creationDate": "2014-01-01T23:28:56.782Z",
+            "publishingDate": "2014-01-01T23:28:56.782Z",
+            "largeImageUrl": "https://via.placeholder.com/600x200",
+            "mediumImageUrl": "https://via.placeholder.com/150",
+            "smalImageUrl": "https://via.placeholder.com/50",
+            "sourceLink":  "http:/someUrl",
+            "shortDescription": "Lorem short 4",
+            "link": "http:/someUrl"
+        },
+        {
+            "id": 5,
+            "title": "News 5",
+            "text": "Lorem text novosti 5",
+            "author": {
+                "id": 5,
+                "name": "John",
+                "surname": "Smith",
+                "patronym": "Petrovich"
+            },
+            "catergory": "сategory1",
+            "creationDate": "2014-01-01T23:28:56.782Z",
+            "publishingDate": "2014-01-01T23:28:56.782Z",
+            "largeImageUrl": "https://via.placeholder.com/600x200",
+            "mediumImageUrl": "https://via.placeholder.com/150",
+            "smalImageUrl": "https://via.placeholder.com/50",
+            "sourceLink":  "http:/someUrl",
+            "shortDescription": "Lorem short 1",
+            "link": "http:/someUrl"
+        }
+    ]
+}
