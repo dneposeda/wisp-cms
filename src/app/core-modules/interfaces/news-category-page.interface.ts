@@ -1,6 +1,6 @@
 import { NewsItem } from './news-item.interface';
 
-export interface NewsCategory {
+export interface NewsCategoryPage {
     title: string;
     text: string;
     image: string;

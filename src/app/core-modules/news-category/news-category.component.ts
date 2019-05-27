@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NewsCategoryService } from '@app/core-modules/services/news-category.service';
+import {Observable} from 'rxjs';
+import { NewsCatList } from '@app/core-modules/interfaces/news.cat-list.interface';
 
 
 @Component({
@@ -9,26 +11,32 @@ import { NewsCategoryService } from '@app/core-modules/services/news-category.se
 })
 export class NewsCategoryComponent implements OnInit {
     public newsCategoryPage;
-    public categoriesList;
+    public categoriesList: Observable <[NewsCatList]>;
     public newsList;
     public totalItems;
     public currentPage = 1;
 
   constructor(
-        private news: NewsCategoryService
+        private newsService: NewsCategoryService
       ) { }
 
   ngOnInit() {
-    this.news.getNewsPage().subscribe(data => {
+    this.newsService.getNewsPage().subscribe(data => {
         this.newsCategoryPage = data;
    });
-    this.news.getNewsCatList().subscribe(data => {
+    /*this.newsService.getNewsCatList().subscribe(data => {
         this.categoriesList = data;
-    });
-    this.news.getNewsList().subscribe(data => {
+    });*/
+    /**
+     * some questions
+     */
+    this.categoriesList = this.newsService.getNewsCatList();
+
+    this.newsService.getNewsList().subscribe(data => {
         // this.totalNews = data.le;
         this.totalItems = ((Object.keys(data)).length);
         this.newsList = data;
     });
+
   }
 }
