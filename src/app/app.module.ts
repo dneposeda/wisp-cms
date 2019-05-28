@@ -10,6 +10,7 @@ import { GoodsCategoryComponent } from './core-modules/goods-category/goods-cate
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { PaginationModule } from 'ngx-bootstrap/pagination';
 import { FormsModule } from '@angular/forms';
+import { PaginationComponent } from './common-modules/pagination/pagination.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FormsModule } from '@angular/forms';
     MainComponent,
     HeaderComponent,
     FooterComponent,
-    GoodsCategoryComponent
+    GoodsCategoryComponent,
+    PaginationComponent
   ],
   imports: [
     BrowserModule,

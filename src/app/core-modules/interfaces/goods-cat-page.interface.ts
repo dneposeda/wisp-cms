@@ -1,8 +1,7 @@
 import { GoodsItem } from './goods-item.interface';
 
-export interface GoodsCategory {
+export interface GoodsCategoryPage {
     title: string;
     text: string;
     image: string;
-    // newsList: Array <NewsItem>;
 }

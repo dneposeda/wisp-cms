@@ -16,7 +16,6 @@ export class GoodsCategoryComponent implements OnInit {
 
   constructor( private feed: GoodsCategoryService ) { }
 
-
     ngOnInit() {
 
         this.feed.getGoodsPage().subscribe(data => {

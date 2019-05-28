@@ -1,25 +1,30 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { GoodsCategory } from '@app/core-modules/interfaces/goods-category.interface.ts';
 import { Observable } from 'rxjs';
+// interfaces
+import { GoodsCategoryPage } from '@app/core-modules/interfaces/goods-cat-page.interface';
+import { GoodsCategoryList } from '@app/core-modules/interfaces/goods-cat-list.interface';
+import { GoodsItem } from '@app/core-modules/interfaces/goods-item.interface';
+
 
 @Injectable({
   providedIn: 'root'
 })
 export class GoodsCategoryService {
+    private folderPath = '../../../assets/dev-stubs/goods-category';
+    private pagePath = 'goods-category-page.stub.json';
+    private catListPath = 'goods-cat-list.stub.json';
+    private goodsListPath = 'goods-list.stub.json';
 
   constructor( private http: HttpClient ) {}
 
-  public getGoodsPage(): Observable<any> {
-      const jsonPath = '../../../assets/dev-stubs/goods-category/goods-category-page.stub.json';
-      return this.http.get(jsonPath);
+  public getGoodsPage(): Observable<GoodsCategoryPage> {
+      return this.http.get<GoodsCategoryPage>(this.folderPath + '/' + this.pagePath );
   }
-  public getGoodsCatList(): Observable<any> {
-      const jsonPath = '../../../assets/dev-stubs/goods-category/goods-cat-list.stub.json';
-      return this.http.get(jsonPath);
+  public getGoodsCatList(): Observable<[GoodsCategoryList]> {
+      return this.http.get<[GoodsCategoryList]>(this.folderPath + '/' + this.catListPath);
   }
-  public getGoodsList(): Observable<any> {
-      const jsonPath = '../../../assets/dev-stubs/goods-category/goods-list.stub.json';
-      return this.http.get(jsonPath);
+  public getGoodsList(): Observable<[GoodsItem]> {
+      return this.http.get<[GoodsItem]>(this.folderPath + '/' + this.goodsListPath);
   }
 }

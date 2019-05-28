@@ -1,10 +1,31 @@
 [
-    "Goods cat1",
-    "Goods cat2",
-    "Goods cat2",
-    "Goods cat2",
-    "Goods cat3",
-    "Goods cat4",
-    "Goods cat5",
-    "Goods cat6"
+    {
+        "id": "1",
+        "title": "Goods cat1"
+
+    },
+    {
+        "id": "2",
+        "title": "Goods cat2"
+    },
+    {
+        "id": "3",
+        "title":"Goods cat3"
+    },
+    {
+        "id": "4",
+        "title":"Goods cat4"
+    },
+    {
+        "id": "5",
+        "title":"Goods cat5"
+    },
+    {
+        "id": "6",
+        "title":"Goods cat6"
+    },
+    {
+        "id": "7",
+        "title":"Goods cat7"
+    }
 ]
