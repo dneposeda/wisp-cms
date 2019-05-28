@@ -3,8 +3,11 @@
             <app-side-column [list]="categoriesList | async"></app-side-column>
     </aside>
     <section *ngIf="goodsCategoryPage" class="column-block column-block--central">
-        <h1>{{ (goodsCategoryPage | async)?.title}}</h1>
-        <p>{{ (goodsCategoryPage | async)?.text}}</p>
+        <article>
+            <h1>{{ (goodsCategoryPage | async)?.title}}</h1>
+            <p>{{ (goodsCategoryPage | async)?.text}}</p>
+        </article>
+
         <article *ngIf="(goodsCategoryPage | async)?.goods" class="news-list">
             <app-goods-medium-card *ngFor="let item of (goodsCategoryPage | async)?.goods" [card]="item"></app-goods-medium-card>
             <div class="pagination-module">

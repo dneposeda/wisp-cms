@@ -23,7 +23,6 @@ export class GoodsCategoryComponent implements OnInit {
 
         this.goodsService.getGoodsPage().subscribe(data => {
             this.goodsCategoryPage.next(data);
-            console.dir(data);
             this.totalItems = (Object.keys(data.goods)).length;
         });
 
