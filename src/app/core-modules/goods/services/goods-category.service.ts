@@ -2,9 +2,9 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 // interfaces
-import { GoodsCategoryPage } from '@app/core-modules/interfaces/goods-cat-page.interface';
-import { GoodsCategoryList } from '@app/core-modules/interfaces/goods-cat-list.interface';
-import { GoodsItem } from '@app/core-modules/interfaces/goods-item.interface';
+import { GoodsCategoryPage } from '@app/core-modules/goods/interfaces/goods-cat-page.interface';
+import { GoodsCategoryList } from '@app/core-modules/goods/interfaces/goods-cat-list.interface';
+import { GoodsItem } from '@app/core-modules/goods/interfaces/goods-item.interface';
 
 
 @Injectable({
