@@ -11,6 +11,8 @@ import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { PaginationModule } from 'ngx-bootstrap/pagination';
 import { FormsModule } from '@angular/forms';
 import { PaginationComponent } from './common-modules/pagination/pagination.component';
+import { SideColumnComponent } from './core-modules/goods/common/components/side-column/side-column.component';
+import { GoodsMediumCardComponent } from './core-modules/goods/common/components/goods-medium-card/goods-medium-card.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { PaginationComponent } from './common-modules/pagination/pagination.comp
     HeaderComponent,
     FooterComponent,
     GoodsCategoryComponent,
-    PaginationComponent
+    PaginationComponent,
+    SideColumnComponent,
+    GoodsMediumCardComponent
   ],
   imports: [
     BrowserModule,

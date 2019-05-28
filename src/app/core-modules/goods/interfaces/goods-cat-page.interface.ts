@@ -1,7 +1,8 @@
-import { GoodsItem } from './goods-item.interface';
+import { GoodsItem } from '../common/interfaces/goods-item.interface';
 
 export interface GoodsCategoryPage {
     title: string;
     text: string;
     image: string;
+    goods: GoodsItem[];
 }

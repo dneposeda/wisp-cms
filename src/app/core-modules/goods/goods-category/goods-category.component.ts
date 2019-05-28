@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { GoodsCategoryService } from '@app/core-modules/goods/services/goods-category.service';
+import { BehaviorSubject } from 'rxjs';
+import { GoodsCategoryPage } from '@app/core-modules/goods/interfaces/goods-cat-page.interface';
+import { GoodsCategoryList } from '@app/core-modules/goods/common/interfaces/goods-cat-list.interface';
 
 @Component({
   selector: 'app-goods-category',
@@ -8,26 +11,24 @@ import { GoodsCategoryService } from '@app/core-modules/goods/services/goods-cat
 })
 export class GoodsCategoryComponent implements OnInit {
 
-    public goodsCategoryPage;
-    public categoriesList;
+    public goodsCategoryPage: BehaviorSubject<GoodsCategoryPage> = new BehaviorSubject(null);
+    public categoriesList: BehaviorSubject<GoodsCategoryList> = new BehaviorSubject(null);
     public goodsList;
     public totalItems;
     public currentPage = 1;
 
-  constructor( private feed: GoodsCategoryService ) { }
+  constructor( private goodsService: GoodsCategoryService ) { }
 
     ngOnInit() {
 
-        this.feed.getGoodsPage().subscribe(data => {
-            this.goodsCategoryPage = data;
+        this.goodsService.getGoodsPage().subscribe(data => {
+            this.goodsCategoryPage.next(data);
+            console.dir(data);
+            this.totalItems = (Object.keys(data.goods)).length;
         });
 
-        this.feed.getGoodsCatList().subscribe(data => {
-            this.categoriesList = data;
+        this.goodsService.getGoodsCatList().subscribe(data => {
+            this.categoriesList.next(data);
         });
-        this.feed.getGoodsList().subscribe(data => {
-            this.totalItems = ((Object.keys(data)).length);
-            this.goodsList = data;
-        });
-    }
+      }
 }

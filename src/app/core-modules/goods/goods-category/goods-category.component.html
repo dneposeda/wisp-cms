@@ -1,23 +1,12 @@
 <div class="main-block">
     <aside class="column-block column-block--left">
-        <ul *ngIf="categoriesList" class="category-list">
-            <li *ngFor="let category of categoriesList" class="category-list__item">
-                <a class="category-list__link btn btn-primary" href="#">{{category.title}}</a>
-            </li>
-        </ul>
+            <app-side-column [list]="categoriesList | async"></app-side-column>
     </aside>
     <section *ngIf="goodsCategoryPage" class="column-block column-block--central">
-        <h1>{{goodsCategoryPage.title}}</h1>
-        <p>{{goodsCategoryPage.text}}</p>
-        <article *ngIf="goodsList" class="news-list">
-            <div *ngFor="let item of goodsList" class="item-card">
-                <a class="item-card__image-link" href="#"><img class="item-card__image" src={{item.image}} alt={{item.title}} /></a>
-                <a class="item-card__title" href="#">{{item.title}}</a>
-                <p class="item-card__text">{{item.description}}</p>
-                <div class="item-card__battom">
-                   <a href="#" class="item-card__more btn btn-info">More</a>
-                </div>
-            </div>
+        <h1>{{ (goodsCategoryPage | async)?.title}}</h1>
+        <p>{{ (goodsCategoryPage | async)?.text}}</p>
+        <article *ngIf="(goodsCategoryPage | async)?.goods" class="news-list">
+            <app-goods-medium-card *ngFor="let item of (goodsCategoryPage | async)?.goods" [card]="item"></app-goods-medium-card>
             <div class="pagination-module">
                 <app-pagination [totalItems]="totalItems" [currentPage]="currentPage"></app-pagination>
             </div>
