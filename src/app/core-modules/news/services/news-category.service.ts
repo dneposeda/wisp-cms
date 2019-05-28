@@ -5,7 +5,7 @@ import { Observable } from 'rxjs';
 
 // interfaces
 import { NewsCategoryPage } from '@app/core-modules/news/interfaces/news-category-page.interface';
-import { NewsCatList } from '@app/core-modules/news/interfaces/news.cat-list.interface';
+import { NewsCatList } from '@app/core-modules/news/commons/interfaces/news.cat-list.interface';
 
 @Injectable({
   providedIn: 'root'
