@@ -4,5 +4,5 @@ export interface NewsItem {
     description: string;
     image: string;
     date: string;
-    category: string;
+    category: number;
 }
