@@ -1,0 +1,25 @@
+.related-goods-card {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 5px;
+
+    &__img {
+        margin-bottom: 10px;
+    }
+
+    &__link {
+        display: inline-block;
+        color: #007bff;
+    }
+
+    &__wrapp {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__more {
+        align-self: flex-end;
+        margin-right: 20px;
+    }
+}
