@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-
 // interfaces
 import { NewsCategoryPage } from '@app/core-modules/news/interfaces/news-category-page.interface';
 import { NewsCategory } from '@app/core-modules/news/commons/interfaces/news-category.interface';

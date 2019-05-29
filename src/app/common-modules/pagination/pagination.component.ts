@@ -11,5 +11,4 @@ export class PaginationComponent {
     totalItems: number;
     @Input()
     currentPage: number;
-
 }

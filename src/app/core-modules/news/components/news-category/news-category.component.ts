@@ -6,9 +6,9 @@ import { NewsCategory } from '@app/core-modules/news/commons/interfaces/news-cat
 import { NewsCategoryPage } from '@app/core-modules/news/interfaces/news-category-page.interface';
 
 @Component({
-  selector: 'app-news-category',
-  templateUrl: './news-category.component.html',
-  styleUrls: ['./news-category.component.scss']
+    selector: 'app-news-category',
+    templateUrl: './news-category.component.html',
+    styleUrls: ['./news-category.component.scss']
 })
 export class NewsCategoryComponent implements OnInit {
     public newsCategoryPage: Observable<NewsCategoryPage>;
@@ -16,13 +16,13 @@ export class NewsCategoryComponent implements OnInit {
     public totalItems;
     public currentPage = 1;
 
-  constructor( private newsService: NewsCategoryService ) { }
+    constructor( private newsService: NewsCategoryService ) { }
 
-  ngOnInit() {
-    this.categoriesList = this.newsService.getNewsCatList();
-    this.newsCategoryPage = this.newsService.getNewsCatPage().pipe(map(data => {
-        this.totalItems = ((data.news).length);
-        return data;
+    ngOnInit() {
+        this.categoriesList = this.newsService.getNewsCatList();
+        this.newsCategoryPage = this.newsService.getNewsCatPage().pipe(map(data => {
+            this.totalItems = ((data.news).length);
+            return data;
     }));
   }
 }
