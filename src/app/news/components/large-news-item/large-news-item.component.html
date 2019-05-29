@@ -1,0 +1,10 @@
+<div>
+    <picture>
+        <img [src]="generalNews.largeImageUrl" alt="">
+    </picture>
+    <div class="space-between">
+        <h3>{{generalNews.title}}</h3>
+        <span>{{generalNews.publishingDate | date}}</span>
+    </div>
+    <p>{{generalNews.text}}</p>
+</div>

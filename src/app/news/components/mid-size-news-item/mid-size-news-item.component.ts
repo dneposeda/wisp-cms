@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { NewsItemComponent } from '../news-item/news-item.component';
 
 @Component({
   selector: 'wisp-mid-size-news-item',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mid-size-news-item.component.scss']
 })
 export class MidSizeNewsItemComponent implements OnInit {
+  @Input() newsItem;
 
   constructor() { }
 

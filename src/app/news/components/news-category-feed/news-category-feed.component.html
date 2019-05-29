@@ -1,3 +1,8 @@
-<p>
-  news-category-feed works!
-</p>
+<h2>{{categoryName}}</h2>
+<div
+    class="news-category-row"
+>
+    <div *ngFor="let newsItem of NewsCategoryFeed">
+        <wisp-mid-size-news-item [newsItem]="newsItem"></wisp-mid-size-news-item>
+    </div>
+</div>

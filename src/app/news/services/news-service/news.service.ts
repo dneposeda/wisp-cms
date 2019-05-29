@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { NewsCategoryFeed } from '../../Interfaces/news-category-feed';
+import { MostPopularNews } from '../../Interfaces/most-popular-news';
 import { Observable } from 'rxjs';
 
 @Injectable({
@@ -13,8 +14,9 @@ import { Observable } from 'rxjs';
  *
  * @publicApi
  */
-export class NewsServiceService {
-  newsCategoryUrl = 'assets/news-category.json';
+export class NewsService {
+  newsCategoryUrl = 'assets/news-category-feed.json';
+  mostPopularNewsUrl = 'assets/most-popular-news.json';
 
   constructor(
     private http: HttpClient,
@@ -27,5 +29,14 @@ export class NewsServiceService {
    */
   public getNewsCategoryFeed(): Observable<NewsCategoryFeed> {
     return <Observable<NewsCategoryFeed>> this.http.get(this.newsCategoryUrl);
+  }
+  /**
+   * Initiates http request with GET method
+   * expecting to receive a news object.
+   *
+   * @returns {Observable<MostPopularNews>} The news object
+   */
+  public getMostPopularNews(): Observable<MostPopularNews> {
+    return <Observable<MostPopularNews>> this.http.get(this.mostPopularNewsUrl);
   }
 }

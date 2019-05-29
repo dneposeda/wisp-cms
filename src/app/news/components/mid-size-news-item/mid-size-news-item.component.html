@@ -1,9 +1,11 @@
-<div *ngIf="card" class="news-card">
-    <img class="news-card__image" src={{card.image}} alt="" />
-    <h4 class="news-card__title">{{card.title}}</h4>
-    <p class="news-card__text">{{card.description}}</p>
-    <div class="news-card__battom">
-        <span class="news-card__date">{{ card.date | date:'mediumDate'}}</span>
-        <a href="#" class="news-card__more btn btn-info">More</a>
+<div class="small-news-item">
+    <picture>
+        <img [src]="newsItem.mediumImageUrl" alt="">
+    </picture>
+    <h3>{{newsItem.title}}</h3>
+    <p>{{newsItem.text}}</p>
+    <div class="space-between">
+        <span>{{newsItem.publishingDate | date}}</span>
+        <a href="#">more</a>
     </div>
 </div>
