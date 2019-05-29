@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NewsCategoryService } from '@app/core-modules/news/services/news-category.service';
-import { BehaviorSubject } from 'rxjs';
+import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
 import { NewsCategory } from '@app/core-modules/news/commons/interfaces/news-category.interface';
 import { NewsCategoryPage } from '@app/core-modules/news/interfaces/news-category-page.interface';
 
@@ -10,22 +11,18 @@ import { NewsCategoryPage } from '@app/core-modules/news/interfaces/news-categor
   styleUrls: ['./news-category.component.scss']
 })
 export class NewsCategoryComponent implements OnInit {
-    public newsCategoryPage: BehaviorSubject<NewsCategoryPage> = new BehaviorSubject(null);
-    public categoriesList: BehaviorSubject<NewsCategory> = new BehaviorSubject(null);
+    public newsCategoryPage: Observable<NewsCategoryPage>;
+    public categoriesList: Observable<NewsCategory[]>;
     public totalItems;
     public currentPage = 1;
 
   constructor( private newsService: NewsCategoryService ) { }
 
   ngOnInit() {
-
-    this.newsService.getNewsCatPage().subscribe(data => {
-        this.newsCategoryPage.next(data);
-        this.totalItems = (Object.keys(data.news)).length;
-    });
-
-    this.newsService.getNewsCatList().subscribe(data => {
-        this.categoriesList.next(data);
-    });
+    this.categoriesList = this.newsService.getNewsCatList();
+    this.newsCategoryPage = this.newsService.getNewsCatPage().pipe(map(data => {
+        this.totalItems = ((data.news).length);
+        return data;
+    }));
   }
 }

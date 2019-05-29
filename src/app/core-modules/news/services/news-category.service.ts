@@ -20,7 +20,7 @@ export class NewsCategoryService {
     public getNewsCatPage(): Observable<NewsCategoryPage> {
         return this.http.get<NewsCategoryPage>(this.apiUrl + '/' + this.pageUrl);
     }
-    public getNewsCatList(): Observable<NewsCategory> {
-        return this.http.get<NewsCategory>(this.apiUrl + '/' + this.catList);
+    public getNewsCatList(): Observable<NewsCategory[]> {
+        return this.http.get<NewsCategory[]>(this.apiUrl + '/' + this.catList);
     }
 }
