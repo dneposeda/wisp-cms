@@ -6,6 +6,8 @@ import { NewsMainPageComponent } from './news/components/news-main-page/news-mai
 import { NewsItemComponent } from './news/components/news-item/news-item.component';
 import { MostPopularNewsComponent } from './news/components/most-popular-news/most-popular-news.component';
 import { NewsCategoryFeedComponent } from './news/components/news-category-feed/news-category-feed.component';
+import { MidSizeNewsItemComponent } from './news/components/mid-size-news-item/mid-size-news-item.component';
+import { SmallSizeNewsItemComponent } from './news/components/small-size-news-item/small-size-news-item.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import { NewsCategoryFeedComponent } from './news/components/news-category-feed/
     NewsMainPageComponent,
     NewsItemComponent,
     MostPopularNewsComponent,
-    NewsCategoryFeedComponent
+    NewsCategoryFeedComponent,
+    MidSizeNewsItemComponent,
+    SmallSizeNewsItemComponent
   ],
   imports: [
     BrowserModule
