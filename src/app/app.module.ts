@@ -3,9 +3,7 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './common-modules/header/header.component';
 import { MainComponent } from './common-modules/main/main.component';
-import { FooterComponent } from './common-modules/footer/footer.component';
 import { NewsCategoryComponent } from './core-modules/news/components/news-category/news-category.component';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { PaginationModule } from 'ngx-bootstrap/pagination';
@@ -18,9 +16,7 @@ import { SideColumnComponent } from './core-modules/news/commons/components/side
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
     MainComponent,
-    FooterComponent,
     NewsCategoryComponent,
     PaginationComponent,
     NewsMediumCardComponent,

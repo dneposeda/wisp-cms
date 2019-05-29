@@ -21,7 +21,6 @@
     &--central{
         flex-grow: 10;
         height: 100%;
-
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -36,13 +35,11 @@
     justify-content: flex-start;
     border: 0.01rem solid black;
 }
-
-.pagination-module{
+.pagination-block{
     align-self: flex-end;
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
 }

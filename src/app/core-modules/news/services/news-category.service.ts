@@ -11,7 +11,7 @@ import { NewsCatList } from '@app/core-modules/news/commons/interfaces/news.cat-
   providedIn: 'root'
 })
 export class NewsCategoryService {
-    private folderPath = '../../../assets/dev-stubs/news-category';
+    private folderPath = 'assets/dev-stubs/news-category';
     private page = 'news-category-page.stub.json';
     private catList = 'news-cat-list.stub.json';
 

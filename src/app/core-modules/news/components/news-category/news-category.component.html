@@ -8,9 +8,9 @@
             <p>{{ (newsCategoryPage | async)?.text }}</p>
         </article>
          <article  class="news-list">
-                <app-news-medium-card *ngFor="let item of (newsCategoryPage|async)?.news" [card]="item"></app-news-medium-card>
-            <div class="pagination-module">
-             <app-pagination [totalItems]="totalItems" [currentPage]="currentPage"></app-pagination>
+            <app-news-medium-card *ngFor="let item of (newsCategoryPage|async)?.news" [card]="item"></app-news-medium-card>
+            <div class="pagination-block">
+                <app-pagination [totalItems]="totalItems" [currentPage]="currentPage"></app-pagination>
             </div>
         </article>
     </section>
