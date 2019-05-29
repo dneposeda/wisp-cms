@@ -1,8 +1,11 @@
 .wished-item {
-    padding: 5px;
     text-align: left;
 
     &__count {
         font-weight: bold;
+    }
+
+    &__text {
+        margin: 0;
     }
 }

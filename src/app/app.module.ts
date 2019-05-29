@@ -14,6 +14,7 @@ import { GalleryComponent } from './components/gallery/gallery.component';
 import { TableParametersComponent } from './components/table-parameters/table-parameters.component';
 import { DeliveredItemComponent } from './components/delivered-item/delivered-item.component';
 import { WishedItemComponent } from './components/wished-item/wished-item.component';
+import { GoodsItemComponent } from './pages/goods-item/goods-item.component';
 
 @NgModule({
     declarations: [
@@ -28,6 +29,7 @@ import { WishedItemComponent } from './components/wished-item/wished-item.compon
         TableParametersComponent,
         DeliveredItemComponent,
         WishedItemComponent,
+        GoodsItemComponent,
     ],
     imports: [
         BrowserModule,
