@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { MainComponent } from './common-modules/main/main.component';
 import { NewsCategoryComponent } from './core-modules/news/components/news-category/news-category.component';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { PaginationModule } from 'ngx-bootstrap/pagination';
@@ -16,7 +15,6 @@ import { SideColumnComponent } from './core-modules/news/commons/components/side
 @NgModule({
   declarations: [
     AppComponent,
-    MainComponent,
     NewsCategoryComponent,
     PaginationComponent,
     NewsMediumCardComponent,

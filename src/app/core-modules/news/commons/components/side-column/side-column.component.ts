@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { NewsCategory } from '@app/core-modules/news/commons/interfaces/news.cat-list.interface';
+import { NewsCategory } from '@app/core-modules/news/commons/interfaces/news-category.interface';
 
 
 @Component({

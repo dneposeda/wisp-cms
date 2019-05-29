@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NewsCategoryService } from '@app/core-modules/news/services/news-category.service';
 import { BehaviorSubject } from 'rxjs';
-import { NewsCatList } from '@app/core-modules/news/commons/interfaces/news.cat-list.interface';
+import { NewsCategory } from '@app/core-modules/news/commons/interfaces/news-category.interface';
 import { NewsCategoryPage } from '@app/core-modules/news/interfaces/news-category-page.interface';
 
 @Component({
@@ -11,7 +11,7 @@ import { NewsCategoryPage } from '@app/core-modules/news/interfaces/news-categor
 })
 export class NewsCategoryComponent implements OnInit {
     public newsCategoryPage: BehaviorSubject<NewsCategoryPage> = new BehaviorSubject(null);
-    public categoriesList: BehaviorSubject<NewsCatList> = new BehaviorSubject(null);
+    public categoriesList: BehaviorSubject<NewsCategory> = new BehaviorSubject(null);
     public totalItems;
     public currentPage = 1;
 
