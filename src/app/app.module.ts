@@ -9,6 +9,7 @@ import { SharePanelComponent } from './components/share-panel/share-panel.compon
 import { WishedItemComponent } from './components/wished-item/wished-item.component';
 import { RelatedGoodsItemComponent } from './components/related-goods-item/related-goods-item.component';
 import { RelatedGoodsListComponent } from './components/related-goods-list/related-goods-list.component';
+import { TableParametersComponent } from './components/table-parameters/table-parameters.component';
 
 @NgModule({
     declarations: [
@@ -19,7 +20,8 @@ import { RelatedGoodsListComponent } from './components/related-goods-list/relat
         SharePanelComponent,
         WishedItemComponent,
         RelatedGoodsItemComponent,
-        RelatedGoodsListComponent
+        RelatedGoodsListComponent,
+        TableParametersComponent
     ],
     imports: [
         BrowserModule
