@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { ButtonsModule } from 'ngx-bootstrap/buttons';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 import { AppComponent } from './app.component';
 import { CommentItemComponent } from './components/comment-item/comment-item.component';
@@ -11,6 +13,7 @@ import { RelatedGoodsItemComponent } from './components/related-goods-item/relat
 import { RelatedGoodsListComponent } from './components/related-goods-list/related-goods-list.component';
 import { TableParametersComponent } from './components/table-parameters/table-parameters.component';
 import { DeliveredItemComponent } from './components/delivered-item/delivered-item.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
 
 @NgModule({
     declarations: [
@@ -23,10 +26,13 @@ import { DeliveredItemComponent } from './components/delivered-item/delivered-it
         RelatedGoodsItemComponent,
         RelatedGoodsListComponent,
         TableParametersComponent,
-        DeliveredItemComponent
+        DeliveredItemComponent,
+        GalleryComponent
     ],
     imports: [
-        BrowserModule
+        BrowserModule,
+        ButtonsModule.forRoot(),
+        CarouselModule.forRoot(),
     ],
     providers: [],
     bootstrap: [AppComponent]
