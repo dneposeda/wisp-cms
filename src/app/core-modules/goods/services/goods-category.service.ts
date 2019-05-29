@@ -3,9 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 // interfaces
 import { GoodsCategoryPage } from '@app/core-modules/goods/interfaces/goods-cat-page.interface';
-import { GoodsCategoryList } from '@app/core-modules/goods/common/interfaces/goods-cat-list.interface';
-import { GoodsItem } from '@app/core-modules/goods/common/interfaces/goods-item.interface';
-
+import { GoodsCategory } from '@app/core-modules/goods/common/interfaces/goods-category.interface';
 
 @Injectable({
   providedIn: 'root'
@@ -20,7 +18,7 @@ export class GoodsCategoryService {
   public getGoodsPage(): Observable<GoodsCategoryPage> {
       return this.http.get<GoodsCategoryPage>(this.folderPath + '/' + this.pagePath );
   }
-  public getGoodsCatList(): Observable<GoodsCategoryList> {
-      return this.http.get<GoodsCategoryList>(this.folderPath + '/' + this.catListPath);
+  public getGoodsCatList(): Observable<GoodsCategory> {
+      return this.http.get<GoodsCategory>(this.folderPath + '/' + this.catListPath);
   }
 }

@@ -2,22 +2,22 @@ import { Component, OnInit } from '@angular/core';
 import { GoodsCategoryService } from '@app/core-modules/goods/services/goods-category.service';
 import { BehaviorSubject } from 'rxjs';
 import { GoodsCategoryPage } from '@app/core-modules/goods/interfaces/goods-cat-page.interface';
-import { GoodsCategoryList } from '@app/core-modules/goods/common/interfaces/goods-cat-list.interface';
+import { GoodsCategory } from '@app/core-modules/goods/common/interfaces/goods-category.interface';
 
 @Component({
-  selector: 'app-goods-category',
-  templateUrl: './goods-category.component.html',
-  styleUrls: ['./goods-category.component.scss']
+    selector: 'app-goods-category',
+    templateUrl: './goods-category.component.html',
+    styleUrls: ['./goods-category.component.scss']
 })
 export class GoodsCategoryComponent implements OnInit {
 
     public goodsCategoryPage: BehaviorSubject<GoodsCategoryPage> = new BehaviorSubject(null);
-    public categoriesList: BehaviorSubject<GoodsCategoryList> = new BehaviorSubject(null);
+    public categoriesList: BehaviorSubject<GoodsCategory> = new BehaviorSubject(null);
     public goodsList;
     public totalItems;
     public currentPage = 1;
 
-  constructor( private goodsService: GoodsCategoryService ) { }
+  constructor( private goodsService: GoodsCategoryService ) {}
 
     ngOnInit() {
 
