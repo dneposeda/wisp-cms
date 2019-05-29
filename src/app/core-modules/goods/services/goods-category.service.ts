@@ -9,16 +9,16 @@ import { GoodsCategory } from '@app/core-modules/goods/common/interfaces/goods-c
   providedIn: 'root'
 })
 export class GoodsCategoryService {
-    private folderPath = 'assets/dev-stubs/goods-category';
-    private pagePath = 'goods-category-page.stub.json';
+    private apiUrl = 'assets/dev-stubs/goods-category';
+    private pageUrl = 'goods-category-page.stub.json';
     private catListPath = 'goods-cat-list.stub.json';
 
   constructor( private http: HttpClient ) {}
 
   public getGoodsPage(): Observable<GoodsCategoryPage> {
-      return this.http.get<GoodsCategoryPage>(this.folderPath + '/' + this.pagePath );
+      return this.http.get<GoodsCategoryPage>(this.apiUrl + '/' + this.pageUrl );
   }
-  public getGoodsCatList(): Observable<GoodsCategory> {
-      return this.http.get<GoodsCategory>(this.folderPath + '/' + this.catListPath);
+  public getGoodsCatList(): Observable<GoodsCategory[]> {
+      return this.http.get<GoodsCategory[]>(this.apiUrl + '/' + this.catListPath);
   }
 }

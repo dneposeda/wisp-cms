@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { GoodsCategoryService } from '@app/core-modules/goods/services/goods-category.service';
-import { BehaviorSubject } from 'rxjs';
+import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
 import { GoodsCategoryPage } from '@app/core-modules/goods/interfaces/goods-cat-page.interface';
 import { GoodsCategory } from '@app/core-modules/goods/common/interfaces/goods-category.interface';
 
@@ -11,8 +12,8 @@ import { GoodsCategory } from '@app/core-modules/goods/common/interfaces/goods-c
 })
 export class GoodsCategoryComponent implements OnInit {
 
-    public goodsCategoryPage: BehaviorSubject<GoodsCategoryPage> = new BehaviorSubject(null);
-    public categoriesList: BehaviorSubject<GoodsCategory> = new BehaviorSubject(null);
+    public goodsCategoryPage: Observable<GoodsCategoryPage>;
+    public categoriesList: Observable<GoodsCategory[]>;
     public goodsList;
     public totalItems;
     public currentPage = 1;
@@ -20,14 +21,10 @@ export class GoodsCategoryComponent implements OnInit {
   constructor( private goodsService: GoodsCategoryService ) {}
 
     ngOnInit() {
-
-        this.goodsService.getGoodsPage().subscribe(data => {
-            this.goodsCategoryPage.next(data);
-            this.totalItems = (Object.keys(data.goods)).length;
-        });
-
-        this.goodsService.getGoodsCatList().subscribe(data => {
-            this.categoriesList.next(data);
-        });
-      }
+        this.categoriesList = this.goodsService.getGoodsCatList();
+        this.goodsCategoryPage = this.goodsService.getGoodsPage().pipe(map(data => {
+            this.totalItems = (data.goods).length;
+            return data;
+        }));
+    }
 }
