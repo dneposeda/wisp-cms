@@ -1,6 +1,6 @@
 <div class="main-block">
     <aside class="column-block column-block--left">
-            <app-side-column [list]="categoriesList | async"></app-side-column>
+        <app-side-column [list]="categoriesList | async"></app-side-column>
     </aside>
     <section *ngIf="goodsCategoryPage" class="column-block column-block--central">
         <article>
@@ -8,9 +8,9 @@
             <p>{{ (goodsCategoryPage | async)?.text}}</p>
         </article>
 
-        <article *ngIf="(goodsCategoryPage | async)?.goods" class="news-list">
+        <article *ngIf="(goodsCategoryPage | async)?.goods" class="goods-list">
             <app-goods-medium-card *ngFor="let item of (goodsCategoryPage | async)?.goods" [card]="item"></app-goods-medium-card>
-            <div class="pagination-module">
+            <div class="pagination-block">
                 <app-pagination [totalItems]="totalItems" [currentPage]="currentPage"></app-pagination>
             </div>
         </article>

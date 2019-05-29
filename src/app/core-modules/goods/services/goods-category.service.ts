@@ -11,7 +11,7 @@ import { GoodsItem } from '@app/core-modules/goods/common/interfaces/goods-item.
   providedIn: 'root'
 })
 export class GoodsCategoryService {
-    private folderPath = '../../../assets/dev-stubs/goods-category';
+    private folderPath = 'assets/dev-stubs/goods-category';
     private pagePath = 'goods-category-page.stub.json';
     private catListPath = 'goods-cat-list.stub.json';
 

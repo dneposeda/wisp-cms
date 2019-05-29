@@ -7,9 +7,7 @@ import { GoodsItem } from '@app/core-modules/goods/common/interfaces/goods-item.
   styleUrls: ['./goods-medium-card.component.scss']
 })
 export class GoodsMediumCardComponent {
-
     @Input()
     card: GoodsItem;
-  constructor() { }
-
+    constructor() { }
 }
