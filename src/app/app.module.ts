@@ -10,6 +10,7 @@ import { WishedItemComponent } from './components/wished-item/wished-item.compon
 import { RelatedGoodsItemComponent } from './components/related-goods-item/related-goods-item.component';
 import { RelatedGoodsListComponent } from './components/related-goods-list/related-goods-list.component';
 import { TableParametersComponent } from './components/table-parameters/table-parameters.component';
+import { DeliveredItemComponent } from './components/delivered-item/delivered-item.component';
 
 @NgModule({
     declarations: [
@@ -21,7 +22,8 @@ import { TableParametersComponent } from './components/table-parameters/table-pa
         WishedItemComponent,
         RelatedGoodsItemComponent,
         RelatedGoodsListComponent,
-        TableParametersComponent
+        TableParametersComponent,
+        DeliveredItemComponent
     ],
     imports: [
         BrowserModule

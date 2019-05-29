@@ -1,0 +1,11 @@
+.delivered-item {
+    text-align: left;
+
+    &__count {
+        font-weight: bold;
+    }
+
+    &__text {
+        margin: 0;
+    }
+}
