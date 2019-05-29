@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { CommentItemComponent } from './components/comment-item/comment-item.component';
 import { CommentListComponent } from './components/comment-list/comment-list.component';
 import { ShareBtnComponent } from './components/share-btn/share-btn.component';
+import { SharePanelComponent } from './components/share-panel/share-panel.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         CommentItemComponent,
         CommentListComponent,
-        ShareBtnComponent
+        ShareBtnComponent,
+        SharePanelComponent
     ],
     imports: [
         BrowserModule
