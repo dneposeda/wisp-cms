@@ -7,6 +7,7 @@ import { CommentListComponent } from './components/comment-list/comment-list.com
 import { ShareBtnComponent } from './components/share-btn/share-btn.component';
 import { SharePanelComponent } from './components/share-panel/share-panel.component';
 import { WishedItemComponent } from './components/wished-item/wished-item.component';
+import { RelatedGoodsItemComponent } from './components/related-goods-item/related-goods-item.component';
 
 @NgModule({
     declarations: [
@@ -15,7 +16,8 @@ import { WishedItemComponent } from './components/wished-item/wished-item.compon
         CommentListComponent,
         ShareBtnComponent,
         SharePanelComponent,
-        WishedItemComponent
+        WishedItemComponent,
+        RelatedGoodsItemComponent
     ],
     imports: [
         BrowserModule
