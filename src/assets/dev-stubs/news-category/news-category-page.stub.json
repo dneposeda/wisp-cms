@@ -8,7 +8,7 @@
             "description": "news description 1",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1"}
         },
         {
             "id ": "2",
@@ -16,7 +16,7 @@
             "description": "news description 2",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "3",
@@ -24,7 +24,7 @@
             "description": "news description 3",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "4",
@@ -32,7 +32,7 @@
             "description": "news description 4",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "5",
@@ -40,7 +40,7 @@
             "description": "news description 5",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "6",
@@ -48,7 +48,7 @@
             "description": "news description 6",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "7",
@@ -56,7 +56,7 @@
             "description": "news description 7",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "8",
@@ -64,7 +64,7 @@
             "description": "news description 8",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "9",
@@ -72,7 +72,7 @@
             "description": "news description 9",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "10",
@@ -80,7 +80,7 @@
             "description": "news description 10",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "11",
@@ -88,7 +88,7 @@
             "description": "news description 11",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "12",
@@ -96,7 +96,7 @@
             "description": "news description 12",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "13",
@@ -104,7 +104,7 @@
             "description": "news description 13",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "14",
@@ -112,7 +112,7 @@
             "description": "news description 14",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "15",
@@ -120,7 +120,7 @@
             "description": "news description 15",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "16",
@@ -128,7 +128,7 @@
             "description": "news description 16",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "17",
@@ -136,7 +136,7 @@
             "description": "news description 17",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "18",
@@ -144,7 +144,7 @@
             "description": "news description 18",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "19",
@@ -152,7 +152,7 @@
             "description": "news description 19",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "20",
@@ -160,7 +160,7 @@
             "description": "news description 20",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
 
         {
@@ -169,7 +169,7 @@
             "description": "news description 21",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "22",
@@ -177,7 +177,7 @@
             "description": "news description 22",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "23",
@@ -185,7 +185,7 @@
             "description": "news description 23",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "24",
@@ -193,7 +193,7 @@
             "description": "news description 24",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "25",
@@ -201,7 +201,7 @@
             "description": "news description 25",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "26",
@@ -209,7 +209,7 @@
             "description": "news description 26",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "27",
@@ -217,7 +217,7 @@
             "description": "news description 27",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "28",
@@ -225,7 +225,7 @@
             "description": "news description 28",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "29",
@@ -233,7 +233,7 @@
             "description": "news description 29",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "30",
@@ -241,7 +241,7 @@
             "description": "news description 30",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "21",
@@ -249,7 +249,7 @@
             "description": "news description 31",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         },
         {
             "id ": "32",
@@ -257,7 +257,7 @@
             "description": "news description 32",
             "image": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
-            "category": "1"
+            "category": { "id": "1", "title": "title1" } 
         }
     ]
 }

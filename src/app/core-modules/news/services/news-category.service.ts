@@ -10,16 +10,15 @@ import { NewsCategory } from '@app/core-modules/news/commons/interfaces/news-cat
   providedIn: 'root'
 })
 export class NewsCategoryService {
-    private apiUrl = 'assets/dev-stubs/news-category';
-    private pageUrl = 'news-category-page.stub.json';
-    private catList = 'news-cat-list.stub.json';
+    private pageUrl = 'assets/dev-stubs/news-category/news-category-page.stub.json';
+    private catList = 'assets/dev-stubs/news-category/news-cat-list.stub.json';
 
     constructor( private http: HttpClient ) {}
 
     public getNewsCatPage(): Observable<NewsCategoryPage> {
-        return this.http.get<NewsCategoryPage>(this.apiUrl + '/' + this.pageUrl);
+        return this.http.get<NewsCategoryPage>( this.pageUrl );
     }
     public getNewsCatList(): Observable<NewsCategory[]> {
-        return this.http.get<NewsCategory[]>(this.apiUrl + '/' + this.catList);
+        return this.http.get<NewsCategory[]>( this.catList );
     }
 }
