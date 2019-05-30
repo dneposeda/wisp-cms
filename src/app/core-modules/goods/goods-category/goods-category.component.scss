@@ -35,18 +35,6 @@
     justify-content: flex-start;
     border: 0.01rem solid black;
 }
-.category-list{
-    display: block;
-
-    &__item{
-        list-style: none;
-        margin: 0.08rem 0;
-        width: 80%;
-    }
-    &__link{
-        width: 100%;
-    }
-}
 .pagination-block{
     align-self: flex-end;
     width: 100%;
