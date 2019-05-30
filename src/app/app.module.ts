@@ -4,13 +4,15 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { NewsCategoryComponent } from './core-modules/news/components/news-category/news-category.component';
+import { GoodsCategoryComponent } from './core-modules/goods/goods-category/goods-category.component';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { PaginationModule } from 'ngx-bootstrap/pagination';
 import { FormsModule } from '@angular/forms';
 import { PaginationComponent } from './common-modules/pagination/pagination.component';
 import { NewsMediumCardComponent } from './core-modules/news/commons/components/news-medium-card/news-medium-card.component';
 import { SideColumnComponent } from './core-modules/news/commons/components/side-column/side-column.component';
-
+import { SideColumnComponent } from './core-modules/goods/common/components/side-column/side-column.component';
+import { GoodsMediumCardComponent } from './core-modules/goods/common/components/goods-medium-card/goods-medium-card.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,10 @@ import { SideColumnComponent } from './core-modules/news/commons/components/side
     PaginationComponent,
     NewsMediumCardComponent,
     SideColumnComponent
+    GoodsCategoryComponent,
+    PaginationComponent,
+    SideColumnComponent,
+    GoodsMediumCardComponent
   ],
   imports: [
     BrowserModule,

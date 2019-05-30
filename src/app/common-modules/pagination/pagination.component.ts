@@ -6,7 +6,6 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./pagination.component.scss']
 })
 export class PaginationComponent {
-
     @Input()
     totalItems: number;
     @Input()

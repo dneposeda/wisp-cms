@@ -1,0 +1,5 @@
+<ul *ngIf="list" class="category-list">
+    <li *ngFor="let item of list" class="category-list__item">
+        <a class="category-list__link btn btn-primary" href="#">{{item.title}}</a>
+    </li>
+</ul>
