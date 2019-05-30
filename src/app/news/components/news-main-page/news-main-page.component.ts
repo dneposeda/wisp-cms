@@ -1,22 +1,21 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'wisp-news-main-page',
-  templateUrl: './news-main-page.component.html',
-  styleUrls: ['./news-main-page.component.css']
+    selector: 'wisp-news-main-page',
+    templateUrl: './news-main-page.component.html',
+    styleUrls: ['./news-main-page.component.scss']
 })
 /**
  * @description
- * A class representing a dashboard that contains
- * a list of the most popular news and news categories.
+ * A class representing a page that contains news blocks
  *
  * @publicApi
  */
 export class NewsMainPageComponent implements OnInit {
 
-  constructor() { }
+    constructor() { }
 
-  ngOnInit() {
-  }
+    ngOnInit() {
+    }
 
 }
