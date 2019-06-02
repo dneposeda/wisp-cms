@@ -1,8 +1,6 @@
 <h2>{{categoryName}}</h2>
-<div
-    class="news-category-row"
->
+<div class="news-category-row">
     <div *ngFor="let newsItem of NewsCategoryFeed">
-        <wisp-mid-size-news-item [newsItem]="newsItem"></wisp-mid-size-news-item>
+        <app-mid-size-news-item [newsItem]="newsItem"></app-mid-size-news-item>
     </div>
 </div>

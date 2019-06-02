@@ -1,15 +1,15 @@
 <h2>Most popular News</h2>
 <div class="most-popular-news">
     <div class="general-news-item">
-        <wisp-large-news-item
+        <app-large-news-item
             [generalNews]="generalNews"
-        ></wisp-large-news-item>
+        ></app-large-news-item>
     </div>
     <div>
         <div *ngFor="let newsItem of newsPreviewFeed">
-            <wisp-small-size-news-item
-                [title]="newsItem.title"
-            ></wisp-small-size-news-item>
+            <app-small-size-news-item
+                [newsItem]="newsItem"
+            ></app-small-size-news-item>
         </div>
     </div>
 </div>

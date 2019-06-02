@@ -4,7 +4,7 @@ import { NewsCategoryFeed } from '../../Interfaces/news-category-feed';
 import { NewsItem } from '../../Interfaces/news-item';
 
 @Component({
-    selector: 'wisp-news-category-feed',
+    selector: 'app-news-category-feed',
     templateUrl: './news-category-feed.component.html',
     styleUrls: ['./news-category-feed.component.scss']
 })

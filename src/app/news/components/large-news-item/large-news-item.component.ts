@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-    selector: 'wisp-large-news-item',
+    selector: 'app-large-news-item',
     templateUrl: './large-news-item.component.html',
     styleUrls: ['./large-news-item.component.scss']
 })

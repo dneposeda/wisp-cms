@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'wisp-news-main-page',
+  selector: 'app-news-main-page',
   templateUrl: './news-main-page.component.html',
   styleUrls: ['./news-main-page.component.css']
 })
