@@ -10,6 +10,8 @@ import { FormsModule } from '@angular/forms';
 import { PaginationComponent } from './common-modules/pagination/pagination.component';
 import { NewsMediumCardComponent } from './core-modules/news/commons/components/news-medium-card/news-medium-card.component';
 import { SideColumnComponent } from './core-modules/news/commons/components/side-column/side-column.component';
+import { NewsSmallCardComponent } from './core-modules/news/commons/components/news-small-card/news-small-card.component';
+import { NewsBigCardComponent } from './core-modules/news/commons/components/news-big-card/news-big-card.component';
 
 
 @NgModule({
@@ -18,7 +20,9 @@ import { SideColumnComponent } from './core-modules/news/commons/components/side
     NewsCategoryComponent,
     PaginationComponent,
     NewsMediumCardComponent,
-    SideColumnComponent
+    SideColumnComponent,
+    NewsSmallCardComponent,
+    NewsBigCardComponent
   ],
   imports: [
     BrowserModule,

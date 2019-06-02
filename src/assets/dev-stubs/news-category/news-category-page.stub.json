@@ -6,7 +6,7 @@
         {   "id ": "1",
             "title":"News title1",
             "description": "news description 1",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1"}
         },
@@ -14,7 +14,7 @@
             "id ": "2",
             "title":"News title2",
             "description": "news description 2",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -22,7 +22,7 @@
             "id ": "3",
             "title":"News title3",
             "description": "news description 3",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -30,7 +30,7 @@
             "id ": "4",
             "title":"News title4",
             "description": "news description 4",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -38,7 +38,7 @@
             "id ": "5",
             "title":"News title5",
             "description": "news description 5",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -46,7 +46,7 @@
             "id ": "6",
             "title":"News title6",
             "description": "news description 6",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -54,7 +54,7 @@
             "id ": "7",
             "title":"News title7",
             "description": "news description 7",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -62,7 +62,7 @@
             "id ": "8",
             "title":"News title8",
             "description": "news description 8",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -70,7 +70,7 @@
             "id ": "9",
             "title":"News title9",
             "description": "news description 9",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -78,7 +78,7 @@
             "id ": "10",
             "title":"News title10",
             "description": "news description 10",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -86,7 +86,7 @@
             "id ": "11",
             "title":"News title11",
             "description": "news description 11",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -94,7 +94,7 @@
             "id ": "12",
             "title":"News title12",
             "description": "news description 12",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -102,7 +102,7 @@
             "id ": "13",
             "title":"News title13",
             "description": "news description 13",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -110,7 +110,7 @@
             "id ": "14",
             "title":"News title14",
             "description": "news description 14",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -118,7 +118,7 @@
             "id ": "15",
             "title":"News title15",
             "description": "news description 15",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -126,7 +126,7 @@
             "id ": "16",
             "title":"News title16",
             "description": "news description 16",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -134,7 +134,7 @@
             "id ": "17",
             "title":"News title17",
             "description": "news description 17",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -142,7 +142,7 @@
             "id ": "18",
             "title":"News title18",
             "description": "news description 18",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -150,7 +150,7 @@
             "id ": "19",
             "title":"News title19",
             "description": "news description 19",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -158,7 +158,7 @@
             "id ": "20",
             "title":"News title20",
             "description": "news description 20",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -167,7 +167,7 @@
             "id ": "21",
             "title":"News title21",
             "description": "news description 21",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -175,7 +175,7 @@
             "id ": "22",
             "title":"News title22",
             "description": "news description 22",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -183,7 +183,7 @@
             "id ": "23",
             "title":"News title23",
             "description": "news description 23",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -191,7 +191,7 @@
             "id ": "24",
             "title":"News title24",
             "description": "news description 24",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -199,7 +199,7 @@
             "id ": "25",
             "title":"News title25",
             "description": "news description 25",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -207,7 +207,7 @@
             "id ": "26",
             "title":"News title26",
             "description": "news description 26",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -215,7 +215,7 @@
             "id ": "27",
             "title":"News title27",
             "description": "news description 27",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -223,7 +223,7 @@
             "id ": "28",
             "title":"News title28",
             "description": "news description 28",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -231,7 +231,7 @@
             "id ": "29",
             "title":"News title29",
             "description": "news description 29",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -239,7 +239,7 @@
             "id ": "30",
             "title":"News title30",
             "description": "news description 30",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -247,7 +247,7 @@
             "id ": "21",
             "title":"News title31",
             "description": "news description 31",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         },
@@ -255,7 +255,7 @@
             "id ": "32",
             "title":"News title32",
             "description": "news description 32",
-            "image": "https://dummyimage.com/150x100/000/fff",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
             "date": "2016-01-05T09:05:05.035Z",
             "category": { "id": "1", "title": "title1" } 
         }
