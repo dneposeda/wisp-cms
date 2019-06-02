@@ -1,6 +1,11 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Title } from '@angular/platform-browser';
-
+/**
+ * @description
+ * A class representing a view of a small size news component
+ *
+ * @publicApi
+ */
 @Component({
   selector: 'app-small-size-news-item',
   templateUrl: './small-size-news-item.component.html',
@@ -9,9 +14,9 @@ import { Title } from '@angular/platform-browser';
 export class SmallSizeNewsItemComponent implements OnInit {
   @Input() newsItem;
 
-  constructor() { }
+    constructor() { }
 
-  ngOnInit() {
-  }
+    ngOnInit() {
+    }
 
 }
