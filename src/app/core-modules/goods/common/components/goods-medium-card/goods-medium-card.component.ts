@@ -6,7 +6,7 @@ import { GoodsMediumCard } from '@app/core-modules/fields/goods/goods-medium-car
     templateUrl: './goods-medium-card.component.html',
     styleUrls: ['./goods-medium-card.component.scss']
 })
-export class GoodsMediumCardComponent extends GoodsMediumCard {
+export class GoodsMediumCardComponent extends GoodsMediumCard implements OnInit {
     @Input()
     card: GoodsMediumCard;
 
@@ -14,7 +14,6 @@ export class GoodsMediumCardComponent extends GoodsMediumCard {
         super();
     }
 
-// tslint:disable-next-line: use-life-cycle-interface
     ngOnInit(): void {
             this.id = this.card.id;
             this.title = this.card.title;
