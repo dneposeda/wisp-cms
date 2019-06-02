@@ -1,13 +1,24 @@
-import { Component, Input } from '@angular/core';
-import { GoodsItem } from '@app/core-modules/goods/common/interfaces/goods-item.interface';
+import { Component, Input, OnInit } from '@angular/core';
+import { GoodsMediumCard } from '@app/core-modules/fields/goods/goods-medium-card';
 
 @Component({
     selector: 'app-goods-medium-card',
     templateUrl: './goods-medium-card.component.html',
     styleUrls: ['./goods-medium-card.component.scss']
 })
-export class GoodsMediumCardComponent {
+export class GoodsMediumCardComponent extends GoodsMediumCard {
     @Input()
-    card: GoodsItem;
-    constructor() { }
+    card: GoodsMediumCard;
+
+    constructor() {
+        super();
+    }
+
+// tslint:disable-next-line: use-life-cycle-interface
+    ngOnInit(): void {
+            this.id = this.card.id;
+            this.title = this.card.title;
+            this.description = this.card.description;
+            this.image = this.card.image;
+    }
 }

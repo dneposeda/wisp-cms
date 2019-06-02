@@ -1,8 +1,8 @@
 <div *ngIf="card" class="item-card">
-    <a class="item-card__image-link" href="#"><img class="item-card__image" src={{card.image}} alt={{card.title}} /></a>
-    <a class="item-card__title" href="#">{{card.title}}</a>
-    <p class="item-card__text">{{card.description}}</p>
+    <a class="item-card__image-link" href="#"><img class="item-card__image" src={{image}} alt={{title}} /></a>
+    <a class="item-card__title" href="#">{{title}}</a>
+    <p class="item-card__text">{{description}}</p>
     <div class="item-card__bottom">
-        <a href="#" class="item-card__more btn btn-info">More</a>
+        <a href="#" (click)="clickMore()" class="item-card__more btn btn-info">More</a>
     </div>
 </div>
