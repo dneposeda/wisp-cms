@@ -1,4 +1,4 @@
-export class AbstractGoodsCard {
+export abstract class AbstractGoodsCard {
     public id: number;
     public title: string;
     public image: string;
