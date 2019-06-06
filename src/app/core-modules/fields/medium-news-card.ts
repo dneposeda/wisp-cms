@@ -1,6 +1,6 @@
-import { AbstractNewsCard } from './abstract-news-card';
+import { AbstractNewsItem } from './abstract-news-item';
 
-export class MediumNewsCard extends AbstractNewsCard {
+export class MediumNewsCard extends AbstractNewsItem {
     public mediumImage: string;
     public description: string;
     public date: string;
