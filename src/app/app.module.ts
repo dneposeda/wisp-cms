@@ -14,6 +14,10 @@ import { NewsSmallCardComponent } from './core-modules/news/commons/components/n
 import { NewsBigCardComponent } from './core-modules/news/commons/components/news-big-card/news-big-card.component';
 import { SideColumnComponent } from './core-modules/goods/common/components/side-column/side-column.component';
 import { GoodsMediumCardComponent } from './core-modules/goods/common/components/goods-medium-card/goods-medium-card.component';
+import { H1Component } from './common-modules/common-elements/headers/h1/h1.component';
+import { H2Component } from './common-modules/common-elements/headers/h2/h2.component';
+import { H3Component } from './common-modules/common-elements/headers/h3/h3.component';
+import { H4Component } from './common-modules/common-elements/headers/h4/h4.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +29,11 @@ import { GoodsMediumCardComponent } from './core-modules/goods/common/components
     NewsSmallCardComponent,
     NewsBigCardComponent,
     GoodsCategoryComponent,
-    GoodsMediumCardComponent
+    GoodsMediumCardComponent,
+    H1Component,
+    H2Component,
+    H3Component,
+    H4Component,
   ],
   imports: [
     BrowserModule,
