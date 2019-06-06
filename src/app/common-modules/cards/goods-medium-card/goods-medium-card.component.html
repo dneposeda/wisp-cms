@@ -1,0 +1,8 @@
+<div *ngIf="cardItem" class="item-card">
+    <a class="item-card__image-link" href="#"><img class="item-card__image" src={{cardItem.image}} alt={{cardItem.title}} /></a>
+    <a class="item-card__title" href="#">{{cardItem.title}}</a>
+    <p class="item-card__text">{{cardItem.description}}</p>
+    <div class="item-card__bottom">
+        <a href="#" class="item-card__more btn btn-info">More</a>
+    </div>
+</div>

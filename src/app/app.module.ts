@@ -9,11 +9,11 @@ import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { PaginationModule } from 'ngx-bootstrap/pagination';
 import { FormsModule } from '@angular/forms';
 import { PaginationComponent } from './common-modules/pagination/pagination.component';
-import { NewsMediumCardComponent } from './core-modules/news/commons/components/news-medium-card/news-medium-card.component';
-import { NewsSmallCardComponent } from './core-modules/news/commons/components/news-small-card/news-small-card.component';
-import { NewsBigCardComponent } from './core-modules/news/commons/components/news-big-card/news-big-card.component';
+import { NewsMediumCardComponent } from './common-modules/cards/news-medium-card/news-medium-card.component';
+import { NewsSmallCardComponent } from './common-modules/cards/news-small-card/news-small-card.component';
+import { NewsBigCardComponent } from './common-modules/cards/news-big-card/news-big-card.component';
 import { SideColumnComponent } from './core-modules/goods/common/components/side-column/side-column.component';
-import { GoodsMediumCardComponent } from './core-modules/goods/common/components/goods-medium-card/goods-medium-card.component';
+import { GoodsMediumCardComponent } from './common-modules/cards/goods-medium-card/goods-medium-card.component';
 
 @NgModule({
   declarations: [

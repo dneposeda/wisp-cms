@@ -1,0 +1,10 @@
+<div *ngIf="cardItem" class="big-news-card">
+    <div class="big-news-card__image-block">
+        <img class="big-news-card__image" src={{cardItem.bigImage}} alt="{{cardItem.title}}" />
+    </div>
+    <div class="big-news-card__info-block">
+        <div class="big-news-card__title-block"><h4>{{cardItem.title}}</h4></div>
+        <div class="big-news-card__date-block"><p>{{ cardItem.date | date:'mediumDate'}}</p></div>
+    </div>
+    <div class="big-news-card__content-block"><p>{{cardItem.longDescription}}</p></div>
+</div>
