@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { GoodsItem } from '@app/core-modules/goods/common/interfaces/goods-item.interface';
+// import { AbstractCardComponent } from '../AbstractCardComponent';
 
 @Component({
     selector: 'app-goods-medium-card',
@@ -7,7 +8,8 @@ import { GoodsItem } from '@app/core-modules/goods/common/interfaces/goods-item.
     styleUrls: ['./goods-medium-card.component.scss']
 })
 export class GoodsMediumCardComponent {
-    @Input()
-    card: GoodsItem;
-    constructor() { }
+
+    constructor() {
+       // super();
+    }
 }
