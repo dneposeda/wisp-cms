@@ -1,0 +1,17 @@
+<div class="main-block">
+    <aside class="column-block column-block--left">
+        <app-side-column [list]="categoriesList | async"></app-side-column>
+    </aside>
+    <section *ngIf="(newsCategoryPage | async)" class="column-block column-block--central">
+        <article>
+            <h1>{{ (newsCategoryPage | async)?.title }}</h1>
+            <p>{{ (newsCategoryPage | async)?.text }}</p>
+        </article>
+         <article  class="news-list">
+            <app-news-medium-card *ngFor="let item of (newsCategoryPage|async)?.news" [card]="item"></app-news-medium-card>
+            <div class="pagination-block">
+                <app-pagination [totalItems]="totalItems" [currentPage]="currentPage"></app-pagination>
+            </div>
+        </article>
+    </section>
+</div>
