@@ -1,0 +1,263 @@
+{
+    "title": "News category 1",
+    "text": "Lorem Ipsum - это текст-\"рыба\", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной \"рыбой\" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.",
+    "image": "https://dummyimage.com/600x400/000/fff",
+    "news":    [
+        {   "id ": "1",
+            "title":"News title1",
+            "description": "news description 1",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1"}
+        },
+        {
+            "id ": "2",
+            "title":"News title2",
+            "description": "news description 2",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "3",
+            "title":"News title3",
+            "description": "news description 3",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "4",
+            "title":"News title4",
+            "description": "news description 4",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "5",
+            "title":"News title5",
+            "description": "news description 5",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "6",
+            "title":"News title6",
+            "description": "news description 6",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "7",
+            "title":"News title7",
+            "description": "news description 7",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "8",
+            "title":"News title8",
+            "description": "news description 8",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "9",
+            "title":"News title9",
+            "description": "news description 9",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "10",
+            "title":"News title10",
+            "description": "news description 10",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "11",
+            "title":"News title11",
+            "description": "news description 11",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "12",
+            "title":"News title12",
+            "description": "news description 12",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "13",
+            "title":"News title13",
+            "description": "news description 13",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "14",
+            "title":"News title14",
+            "description": "news description 14",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "15",
+            "title":"News title15",
+            "description": "news description 15",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "16",
+            "title":"News title16",
+            "description": "news description 16",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "17",
+            "title":"News title17",
+            "description": "news description 17",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "18",
+            "title":"News title18",
+            "description": "news description 18",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "19",
+            "title":"News title19",
+            "description": "news description 19",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "20",
+            "title":"News title20",
+            "description": "news description 20",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+
+        {
+            "id ": "21",
+            "title":"News title21",
+            "description": "news description 21",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "22",
+            "title":"News title22",
+            "description": "news description 22",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "23",
+            "title":"News title23",
+            "description": "news description 23",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "24",
+            "title":"News title24",
+            "description": "news description 24",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "25",
+            "title":"News title25",
+            "description": "news description 25",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "26",
+            "title":"News title26",
+            "description": "news description 26",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "27",
+            "title":"News title27",
+            "description": "news description 27",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "28",
+            "title":"News title28",
+            "description": "news description 28",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "29",
+            "title":"News title29",
+            "description": "news description 29",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "30",
+            "title":"News title30",
+            "description": "news description 30",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "21",
+            "title":"News title31",
+            "description": "news description 31",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        },
+        {
+            "id ": "32",
+            "title":"News title32",
+            "description": "news description 32",
+            "mediumImage": "https://dummyimage.com/150x100/000/fff",
+            "date": "2016-01-05T09:05:05.035Z",
+            "category": { "id": "1", "title": "title1" } 
+        }
+    ]
+}
