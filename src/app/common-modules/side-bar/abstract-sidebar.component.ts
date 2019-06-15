@@ -1,4 +1,5 @@
 import { Input, Injectable } from '@angular/core';
+import { AbstractItem } from '@app/core-modules/fields/abstract-item';
 
 @Injectable({
     providedIn: 'root'
@@ -6,9 +7,9 @@ import { Input, Injectable } from '@angular/core';
 export abstract class AbstractSidebarComponent {
 
     @Input()
-    inputData;
+    inputData: AbstractItem;
     @Input()
-    slot1;
+    slot1: any;
     @Input()
-    slot2;
+    slot2: any;
 }
