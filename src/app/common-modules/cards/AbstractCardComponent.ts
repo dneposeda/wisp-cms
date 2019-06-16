@@ -1,4 +1,5 @@
 import { Input, Injectable } from '@angular/core';
+import { AbstractItem } from '@app/core-modules/fields/abstract-item';
 
 @Injectable({
     providedIn: 'root'
@@ -6,6 +7,6 @@ import { Input, Injectable } from '@angular/core';
 export abstract class AbstractCardComponent {
 
     @Input()
-    cardItem;
+    cardItem: AbstractItem;
     constructor() {}
 }

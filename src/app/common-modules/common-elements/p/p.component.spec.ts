@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SideColumnComponent } from './side-column.component';
+import { PComponent } from './p.component';
 
-describe('SideColumnComponent', () => {
-  let component: SideColumnComponent;
-  let fixture: ComponentFixture<SideColumnComponent>;
+describe('PComponent', () => {
+  let component: PComponent;
+  let fixture: ComponentFixture<PComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SideColumnComponent ]
+      declarations: [ PComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SideColumnComponent);
+    fixture = TestBed.createComponent(PComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

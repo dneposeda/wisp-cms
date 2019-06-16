@@ -3,7 +3,7 @@ import { GoodsCategoryService } from '@app/core-modules/goods/services/goods-cat
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { GoodsCategoryPage } from '@app/core-modules/goods/interfaces/goods-cat-page.interface';
-import { GoodsCategory } from '@app/core-modules/goods/common/interfaces/goods-category.interface';
+import { AbstractGoodsItem } from '@app/core-modules/fields/abstract-good-item';
 
 @Component({
     selector: 'app-goods-category',
@@ -13,8 +13,8 @@ import { GoodsCategory } from '@app/core-modules/goods/common/interfaces/goods-c
 export class GoodsCategoryComponent implements OnInit {
 
     public goodsCategoryPage: Observable<GoodsCategoryPage>;
-    public categoriesList: Observable<GoodsCategory[]>;
-    public goodsList;
+    public categoriesList: Observable<AbstractGoodsItem[]>;
+    // public goodsList;
     public totalItems;
     public currentPage = 1;
 
