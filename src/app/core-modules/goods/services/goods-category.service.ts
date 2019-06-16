@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 // interfaces
-import { GoodsCategoryPage } from '@app/core-modules/goods/interfaces/goods-cat-page.interface';
 import { GoodsCategory } from '@app/core-modules/goods/common/interfaces/goods-category.interface';
 
 @Injectable({
@@ -14,8 +13,8 @@ export class GoodsCategoryService {
 
     constructor( private http: HttpClient ) {}
 
-    public getGoodsPage(): Observable<GoodsCategoryPage> {
-        return this.http.get<GoodsCategoryPage>( this.pagePath );
+    public getGoodsPage(): Observable<GoodsCategory> {
+        return this.http.get<GoodsCategory>( this.pagePath );
     }
     public getGoodsCatList(): Observable<GoodsCategory[]> {
         return this.http.get<GoodsCategory[]>( this.catListPath );
