@@ -1,15 +1,15 @@
 <div class="main-block">
     <aside class="column-block column-block--left">
-        <app-side-column [list]="categoriesList | async"></app-side-column>
+        <app-goods-sidebar [inputData]="categoriesList | async"></app-goods-sidebar>
     </aside>
     <section *ngIf="goodsCategoryPage" class="column-block column-block--central">
         <article>
-            <h1>{{ (goodsCategoryPage | async)?.title}}</h1>
-            <p>{{ (goodsCategoryPage | async)?.text}}</p>
+            <app-h1 [data]="(goodsCategoryPage | async)?.title" ></app-h1>
+            <app-p [data]="(goodsCategoryPage | async)?.text"></app-p>
         </article>
 
         <article *ngIf="(goodsCategoryPage | async)?.goods" class="goods-list">
-            <app-goods-medium-card *ngFor="let item of (goodsCategoryPage | async)?.goods" [card]="item"></app-goods-medium-card>
+            <app-goods-medium-card *ngFor="let item of (goodsCategoryPage | async)?.goods" [cardItem]="item"></app-goods-medium-card>
             <div class="pagination-block">
                 <app-pagination [totalItems]="totalItems" [currentPage]="currentPage"></app-pagination>
             </div>

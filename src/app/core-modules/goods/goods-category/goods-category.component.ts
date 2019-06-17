@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { GoodsCategoryService } from '@app/core-modules/goods/services/goods-category.service';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { GoodsCategoryPage } from '@app/core-modules/goods/interfaces/goods-cat-page.interface';
 import { GoodsCategory } from '@app/core-modules/goods/common/interfaces/goods-category.interface';
 
 @Component({
@@ -12,9 +11,8 @@ import { GoodsCategory } from '@app/core-modules/goods/common/interfaces/goods-c
 })
 export class GoodsCategoryComponent implements OnInit {
 
-    public goodsCategoryPage: Observable<GoodsCategoryPage>;
+    public goodsCategoryPage: Observable<GoodsCategory>;
     public categoriesList: Observable<GoodsCategory[]>;
-    public goodsList;
     public totalItems;
     public currentPage = 1;
 

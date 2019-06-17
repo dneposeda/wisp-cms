@@ -1,0 +1,11 @@
+<div *ngIf="cardItem" class="small-news-card">
+    <div class="small-news-card__image-block">
+        <a href="#" class="small-news-card__link">
+            <img class="small-news-card__image" src={{cardItem.smallImage}} alt="{{cardItem.title}}" />
+        </a>
+    </div>
+    <div>
+        <h4 class="small-news-card__title">{{cardItem.title}}</h4>
+        <p class="small-news-card__text">{{cardItem.shortDesc}}</p>
+    </div>
+</div>

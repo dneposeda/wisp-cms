@@ -3,7 +3,6 @@ import { NewsCategoryService } from '@app/core-modules/news/services/news-catego
 import { Observable } from 'rxjs';
 import { map, take } from 'rxjs/operators';
 import { NewsCategory } from '@app/core-modules/news/commons/interfaces/news-category.interface';
-import { NewsCategoryPage } from '@app/core-modules/news/interfaces/news-category-page.interface';
 
 @Component({
     selector: 'app-news-category',
@@ -11,7 +10,7 @@ import { NewsCategoryPage } from '@app/core-modules/news/interfaces/news-categor
     styleUrls: ['./news-category.component.scss']
 })
 export class NewsCategoryComponent implements OnInit {
-    public newsCategoryPage: Observable<NewsCategoryPage>;
+    public newsCategoryPage: Observable<NewsCategory>;
     public categoriesList: Observable<NewsCategory[]>;
     public totalItems;
     public currentPage = 1;

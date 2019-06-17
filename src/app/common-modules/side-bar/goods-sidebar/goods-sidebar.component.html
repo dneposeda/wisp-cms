@@ -1,5 +1,7 @@
 <div *ngIf="inputData" class="goods-sidebar">
-    <ul>
-        <li *ngFor="let item of inputData">item</li>
+    <ul class="goods-sidebar__list">
+        <li *ngFor="let item of inputData" class="goods-sidebar__list-item">
+            <a class="goods-sidebar__list-link btn btn-primary" href="#">{{item.title}}</a>
+        </li>
     </ul>
 </div>
